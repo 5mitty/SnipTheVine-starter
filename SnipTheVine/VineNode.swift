@@ -109,6 +109,7 @@ class VineNode: SKNode {
     let joint = SKPhysicsJointPin.joint(withBodyA: lastNode.physicsBody!,
                                         bodyB: prize.physicsBody!, anchor: lastNode.position)
 
+    
     prize.scene?.physicsWorld.add(joint)
   }
 }
